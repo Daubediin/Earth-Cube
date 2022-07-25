@@ -1,0 +1,44 @@
+{
+  "mod_elements": [
+    {
+      "name": "Miningworld",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miningworld",
+      "metadata": {
+        "ep": false
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.earthcube.miningworld": "Miningworld Portal Igniter"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "earthcube",
+    "modName": "Earth-Cube",
+    "version": "1.0.0",
+    "author": "aurel, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.earthcube",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
