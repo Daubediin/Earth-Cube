@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "earthcube:blocks/portal_block",
+    "up": "earthcube:blocks/portal_block",
+    "north": "earthcube:blocks/portal_block",
+    "east": "earthcube:blocks/portal_block",
+    "south": "earthcube:blocks/portal_block",
+    "west": "earthcube:blocks/portal_block",
+    "particle": "earthcube:blocks/portal_block"
+  }
+}

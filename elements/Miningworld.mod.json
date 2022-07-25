@@ -22,10 +22,10 @@
     "hasSkyLight": false,
     "imitateOverworldBehaviour": true,
     "portalFrame": {
-      "value": ""
+      "value": "CUSTOM:Portalblock"
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "PORTAL"
     },
     "portalLuminance": 0,
     "portalSound": {
@@ -35,8 +35,8 @@
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "",
-    "portalTexture": "",
-    "enablePortal": false
+    "texture": "portal_activator",
+    "portalTexture": "texture_portal",
+    "enablePortal": true
   }
 }

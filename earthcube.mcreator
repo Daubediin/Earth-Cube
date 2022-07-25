@@ -8,15 +8,24 @@
       "locked_code": false,
       "registry_name": "miningworld",
       "metadata": {
-        "ep": false
+        "ep": true
       }
+    },
+    {
+      "name": "Portalblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalblock"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.earthcube.miningworld": "Miningworld Portal Igniter"
+      "item.earthcube.miningworld": "Miningworld Portal Igniter",
+      "block.earthcube.portalblock": "Portalblock"
     }
   },
   "foldersRoot": {

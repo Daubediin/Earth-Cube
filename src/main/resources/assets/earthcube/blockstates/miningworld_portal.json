@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "earthcube:block/miningworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "earthcube:block/miningworld_portal_ns"
+    }
+  }
+}
