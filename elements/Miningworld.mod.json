@@ -36,7 +36,7 @@
       "value": "TOOLS"
     },
     "texture": "portal_activator",
-    "portalTexture": "texture_portal",
+    "portalTexture": "portal_texture",
     "enablePortal": true
   }
 }
