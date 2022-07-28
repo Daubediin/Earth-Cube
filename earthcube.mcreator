@@ -24,7 +24,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.earthcube.miningworld": "Miningworld Portal Igniter",
+      "item.earthcube.miningworld": "Portal activator",
       "block.earthcube.portalblock": "Portalblock"
     }
   },
@@ -46,6 +46,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.earthcube",
     "lockBaseModFiles": false
   },

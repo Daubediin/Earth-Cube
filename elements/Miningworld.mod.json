@@ -31,7 +31,7 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Miningworld Portal Igniter",
+    "igniterName": "Portal activator",
     "igniterTab": {
       "value": "TOOLS"
     },
