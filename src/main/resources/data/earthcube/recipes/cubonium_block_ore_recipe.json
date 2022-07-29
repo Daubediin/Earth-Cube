@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "earthcube:cubonium_block"
+      "item": "earthcube:deleted_mod_element"
     }
   ],
   "result": {

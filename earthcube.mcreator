@@ -28,52 +28,12 @@
       "registry_name": "cubonium"
     },
     {
-      "name": "CuboniumOre",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_ore"
-    },
-    {
-      "name": "CuboniumBlock",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_block"
-    },
-    {
-      "name": "CuboniumOreBlockRecipe",
+      "name": "CuboniumAxeRecipe",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cubonium_ore_block_recipe"
-    },
-    {
-      "name": "CuboniumBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_block_ore_recipe"
-    },
-    {
-      "name": "CuboniumOreSmelting",
-      "type": "recipe",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_ore_smelting"
-    },
-    {
-      "name": "CuboniumPickaxe",
-      "type": "tool",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_pickaxe"
+      "registry_name": "cubonium_axe_recipe"
     },
     {
       "name": "CuboniumAxe",
@@ -84,28 +44,12 @@
       "registry_name": "cubonium_axe"
     },
     {
-      "name": "CuboniumSword",
-      "type": "tool",
-      "sortid": 11,
+      "name": "CuboniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cubonium_sword"
-    },
-    {
-      "name": "CuboniumShovel",
-      "type": "tool",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_shovel"
-    },
-    {
-      "name": "CuboniumHoe",
-      "type": "tool",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_hoe"
+      "registry_name": "cubonium_hoe_recipe"
     },
     {
       "name": "CuboniumPickaxeRecipe",
@@ -116,36 +60,12 @@
       "registry_name": "cubonium_pickaxe_recipe"
     },
     {
-      "name": "CuboniumAxeRecipe",
+      "name": "CuboniumBlockOreRecipe",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cubonium_axe_recipe"
-    },
-    {
-      "name": "CuboniumSwordRecipe",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_sword_recipe"
-    },
-    {
-      "name": "CuboniumShovelRecipe",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_shovel_recipe"
-    },
-    {
-      "name": "CuboniumHoeRecipe",
-      "type": "recipe",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_hoe_recipe"
+      "registry_name": "cubonium_block_ore_recipe"
     },
     {
       "name": "CuboniumArmor",
@@ -162,20 +82,12 @@
       }
     },
     {
-      "name": "CuboniumArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 20,
+      "name": "CuboniumBlock",
+      "type": "block",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cubonium_armor_helmet_recipe"
-    },
-    {
-      "name": "CuboniumArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_armor_body_recipe"
+      "registry_name": "cubonium_block"
     },
     {
       "name": "CuboniumArmorLeggingsRecipe",
@@ -186,12 +98,100 @@
       "registry_name": "cubonium_armor_leggings_recipe"
     },
     {
+      "name": "CuboniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubonium_ore_block_recipe"
+    },
+    {
+      "name": "CuboniumShovel",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubonium_shovel"
+    },
+    {
+      "name": "CuboniumOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubonium_ore"
+    },
+    {
+      "name": "CuboniumSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubonium_sword"
+    },
+    {
+      "name": "CuboniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubonium_shovel_recipe"
+    },
+    {
+      "name": "CuboniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubonium_armor_body_recipe"
+    },
+    {
+      "name": "CuboniumHoe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubonium_hoe"
+    },
+    {
+      "name": "CuboniumPickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubonium_pickaxe"
+    },
+    {
       "name": "CuboniumArmorBootsRecipe",
       "type": "recipe",
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cubonium_armor_boots_recipe"
+    },
+    {
+      "name": "CuboniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubonium_armor_helmet_recipe"
+    },
+    {
+      "name": "CuboniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubonium_sword_recipe"
+    },
+    {
+      "name": "CuboniumOreSmelting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubonium_ore_smelting"
     }
   ],
   "variable_elements": [],
@@ -199,19 +199,7 @@
   "language_map": {
     "en_us": {
       "item.earthcube.miningworld": "Miningworld Portal Igniter",
-      "item.earthcube.cubonium_armor_chestplate": "Cubonium Chestplate",
-      "item.earthcube.cubonium_armor_boots": "Cubonium Boots",
-      "item.earthcube.cubonium": "Cubonium",
-      "block.earthcube.cubonium_block": "Block of Cubonium",
-      "item.earthcube.cubonium_axe": "Cubonium Axe",
-      "item.earthcube.cubonium_armor_leggings": "Cubonium Leggings",
-      "item.earthcube.cubonium_pickaxe": "Cubonium Pickaxe",
-      "item.earthcube.cubonium_sword": "Cubonium Sword",
-      "block.earthcube.cubonium_ore": "Cubonium Ore",
-      "block.earthcube.portalblock": "Portalblock",
-      "item.earthcube.cubonium_armor_helmet": "Cubonium Helmet",
-      "item.earthcube.cubonium_hoe": "Cubonium Hoe",
-      "item.earthcube.cubonium_shovel": "Cubonium Shovel"
+      "block.earthcube.portalblock": "Portalblock"
     }
   },
   "foldersRoot": {

@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "earthcube:blocks/texture_portal",
-    "portal": "earthcube:blocks/texture_portal"
+    "particle": "earthcube:blocks/portal_texture",
+    "portal": "earthcube:blocks/portal_texture"
   },
   "elements": [
     {

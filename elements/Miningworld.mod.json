@@ -31,12 +31,12 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Miningworld Portal Igniter",
+    "igniterName": "Portal activator",
     "igniterTab": {
       "value": "TOOLS"
     },
     "texture": "portal_activator",
-    "portalTexture": "texture_portal",
+    "portalTexture": "portal_texture",
     "enablePortal": true
   }
 }
