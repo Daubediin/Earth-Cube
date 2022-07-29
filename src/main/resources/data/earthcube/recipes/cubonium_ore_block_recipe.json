@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "earthcube:cubonium"
+    },
+    "1": {
+      "item": "earthcube:cubonium"
+    },
+    "2": {
+      "item": "earthcube:cubonium"
+    },
+    "3": {
+      "item": "earthcube:cubonium"
+    },
+    "4": {
+      "item": "earthcube:cubonium"
+    },
+    "5": {
+      "item": "earthcube:cubonium"
+    },
+    "6": {
+      "item": "earthcube:cubonium"
+    },
+    "7": {
+      "item": "earthcube:cubonium"
+    },
+    "8": {
+      "item": "earthcube:cubonium"
+    }
+  },
+  "result": {
+    "item": "earthcube:cubonium_block",
+    "count": 1
+  }
+}

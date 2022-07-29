@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.earthcube.init.EarthcubeModItems;
+import net.mcreator.earthcube.init.EarthcubeModFeatures;
 import net.mcreator.earthcube.init.EarthcubeModBlocks;
 
 import java.util.function.Supplier;
@@ -47,6 +48,8 @@ public class EarthcubeMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		EarthcubeModBlocks.REGISTRY.register(bus);
 		EarthcubeModItems.REGISTRY.register(bus);
+
+		EarthcubeModFeatures.REGISTRY.register(bus);
 
 	}
 

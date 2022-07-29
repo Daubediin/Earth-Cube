@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "earthcube:blocks/cubonium_ore_block",
+    "particle": "earthcube:blocks/cubonium_ore_block"
+  }
+}
