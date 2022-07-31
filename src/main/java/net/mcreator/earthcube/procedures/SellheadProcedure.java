@@ -1,6 +1,8 @@
 package net.mcreator.earthcube.procedures;
 
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
+
+import javax.annotation.Nullable;
 
 public class SellheadProcedure {
 	public static void execute(Entity entity) {

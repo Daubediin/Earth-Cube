@@ -20,214 +20,6 @@
       "registry_name": "portalblock"
     },
     {
-      "name": "Cubonium",
-      "type": "item",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium"
-    },
-    {
-      "name": "CuboniumAxeRecipe",
-      "type": "recipe",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_axe_recipe"
-    },
-    {
-      "name": "CuboniumAxe",
-      "type": "tool",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_axe"
-    },
-    {
-      "name": "CuboniumHoeRecipe",
-      "type": "recipe",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_hoe_recipe"
-    },
-    {
-      "name": "CuboniumPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_pickaxe_recipe"
-    },
-    {
-      "name": "CuboniumBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_block_ore_recipe"
-    },
-    {
-      "name": "CuboniumArmor",
-      "type": "armor",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "CuboniumBlock",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_block"
-    },
-    {
-      "name": "CuboniumArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_armor_leggings_recipe"
-    },
-    {
-      "name": "CuboniumOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_ore_block_recipe"
-    },
-    {
-      "name": "CuboniumShovel",
-      "type": "tool",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_shovel"
-    },
-    {
-      "name": "CuboniumOre",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_ore"
-    },
-    {
-      "name": "CuboniumSword",
-      "type": "tool",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_sword"
-    },
-    {
-      "name": "CuboniumShovelRecipe",
-      "type": "recipe",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_shovel_recipe"
-    },
-    {
-      "name": "CuboniumArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_armor_body_recipe"
-    },
-    {
-      "name": "CuboniumHoe",
-      "type": "tool",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_hoe"
-    },
-    {
-      "name": "CuboniumPickaxe",
-      "type": "tool",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_pickaxe"
-    },
-    {
-      "name": "CuboniumArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_armor_boots_recipe"
-    },
-    {
-      "name": "CuboniumArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_armor_helmet_recipe"
-    },
-    {
-      "name": "CuboniumSwordRecipe",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_sword_recipe"
-    },
-    {
-      "name": "CuboniumOreSmelting",
-      "type": "recipe",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cubonium_ore_smelting"
-    },
-    {
-      "name": "Spawn",
-      "type": "procedure",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spawn",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
-      "name": "Craft",
-      "type": "procedure",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craft",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
       "name": "Vote",
       "type": "procedure",
       "sortid": 26,
@@ -245,97 +37,12 @@
       "path": "~/Gui"
     },
     {
-      "name": "Sellhead",
+      "name": "Craft",
       "type": "procedure",
-      "sortid": 27,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sellhead",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
-      "name": "Balance",
-      "type": "procedure",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "balance",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
-      "name": "Level",
-      "type": "procedure",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "level",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
-      "name": "Jobs",
-      "type": "procedure",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jobs",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
-      "name": "Rules",
-      "type": "procedure",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rules",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Gui"
-    },
-    {
-      "name": "Shop",
-      "type": "procedure",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shop",
+      "registry_name": "craft",
       "metadata": {
         "dependencies": [
           {
@@ -373,6 +80,23 @@
       "path": "~/Gui"
     },
     {
+      "name": "Rules",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rules",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
       "name": "CommandesUtiles",
       "type": "procedure",
       "sortid": 35,
@@ -406,6 +130,74 @@
       "path": "~/Gui"
     },
     {
+      "name": "Shop",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Jobs",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jobs",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Sellhead",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sellhead",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Level",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
       "name": "LesCommandesUtiles",
       "type": "keybind",
       "sortid": 35,
@@ -413,6 +205,48 @@
       "locked_code": false,
       "registry_name": "les_commandes_utiles",
       "path": "~/Gui"
+    },
+    {
+      "name": "Spawn",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Balance",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Portalblockrecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalblockrecipe"
     }
   ],
   "variable_elements": [],
@@ -424,7 +258,6 @@
       "item.earthcube.cubonium_armor_boots": "Cubonium Boots",
       "item.earthcube.cubonium": "Cubonium",
       "block.earthcube.cubonium_block": "Block of Cubonium",
-      "key.earthcube.les_commandes_utiles": "Les Commandes Utiles",
       "item.earthcube.cubonium_axe": "Cubonium Axe",
       "item.earthcube.cubonium_armor_leggings": "Cubonium Leggings",
       "item.earthcube.cubonium_pickaxe": "Cubonium Pickaxe",

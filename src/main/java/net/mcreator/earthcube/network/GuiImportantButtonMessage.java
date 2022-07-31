@@ -1,33 +1,9 @@
 
 package net.mcreator.earthcube.network;
 
-import net.minecraftforge.network.NetworkEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.earthcube.world.inventory.GuiImportantMenu;
-import net.mcreator.earthcube.procedures.VoteProcedure;
-import net.mcreator.earthcube.procedures.SpawnProcedure;
-import net.mcreator.earthcube.procedures.ShopProcedure;
-import net.mcreator.earthcube.procedures.SellheadProcedure;
-import net.mcreator.earthcube.procedures.LevelProcedure;
-import net.mcreator.earthcube.procedures.JobsProcedure;
-import net.mcreator.earthcube.procedures.CraftProcedure;
-import net.mcreator.earthcube.procedures.BalanceProcedure;
-import net.mcreator.earthcube.procedures.AhProcedure;
-import net.mcreator.earthcube.EarthcubeMod;
-
-import java.util.function.Supplier;
-import java.util.HashMap;
-
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class GuiImportantButtonMessage {
+
 	private final int buttonID, x, y, z;
 
 	public GuiImportantButtonMessage(FriendlyByteBuf buffer) {
@@ -59,6 +35,7 @@ public class GuiImportantButtonMessage {
 			int x = message.x;
 			int y = message.y;
 			int z = message.z;
+
 			handleButtonAction(entity, buttonID, x, y, z);
 		});
 		context.setPacketHandled(true);
@@ -67,12 +44,14 @@ public class GuiImportantButtonMessage {
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
 		Level world = entity.level;
 		HashMap guistate = GuiImportantMenu.guistate;
+
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
+
 		if (buttonID == 0) {
 
-			SpawnProcedure.execute(entity);
+			SpawnProcedure.execute();
 		}
 		if (buttonID == 1) {
 
@@ -84,19 +63,19 @@ public class GuiImportantButtonMessage {
 		}
 		if (buttonID == 3) {
 
-			SellheadProcedure.execute(entity);
+			SellheadProcedure.execute();
 		}
 		if (buttonID == 4) {
 
-			BalanceProcedure.execute(entity);
+			BalanceProcedure.execute();
 		}
 		if (buttonID == 5) {
 
-			LevelProcedure.execute(entity);
+			LevelProcedure.execute();
 		}
 		if (buttonID == 6) {
 
-			JobsProcedure.execute(entity);
+			JobsProcedure.execute();
 		}
 		if (buttonID == 7) {
 
@@ -104,7 +83,7 @@ public class GuiImportantButtonMessage {
 		}
 		if (buttonID == 8) {
 
-			ShopProcedure.execute(entity);
+			ShopProcedure.execute();
 		}
 	}
 
@@ -113,4 +92,5 @@ public class GuiImportantButtonMessage {
 		EarthcubeMod.addNetworkMessage(GuiImportantButtonMessage.class, GuiImportantButtonMessage::buffer, GuiImportantButtonMessage::new,
 				GuiImportantButtonMessage::handler);
 	}
+
 }

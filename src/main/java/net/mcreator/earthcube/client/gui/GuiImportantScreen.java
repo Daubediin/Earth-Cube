@@ -1,27 +1,10 @@
 
 package net.mcreator.earthcube.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.earthcube.world.inventory.GuiImportantMenu;
-import net.mcreator.earthcube.network.GuiImportantButtonMessage;
-import net.mcreator.earthcube.EarthcubeMod;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class GuiImportantScreen extends AbstractContainerScreen<GuiImportantMenu> {
+
 	private final static HashMap<String, Object> guistate = GuiImportantMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -44,6 +27,7 @@ public class GuiImportantScreen extends AbstractContainerScreen<GuiImportantMenu
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderTooltip(ms, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -51,8 +35,10 @@ public class GuiImportantScreen extends AbstractContainerScreen<GuiImportantMenu
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -62,6 +48,7 @@ public class GuiImportantScreen extends AbstractContainerScreen<GuiImportantMenu
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -83,7 +70,9 @@ public class GuiImportantScreen extends AbstractContainerScreen<GuiImportantMenu
 	@Override
 	public void init() {
 		super.init();
+
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+
 		this.addRenderableWidget(new Button(this.leftPos + 0, this.topPos + 0, 51, 20, new TextComponent("Spawn"), e -> {
 			if (true) {
 				EarthcubeMod.PACKET_HANDLER.sendToServer(new GuiImportantButtonMessage(0, x, y, z));
@@ -139,4 +128,5 @@ public class GuiImportantScreen extends AbstractContainerScreen<GuiImportantMenu
 			}
 		}));
 	}
+
 }

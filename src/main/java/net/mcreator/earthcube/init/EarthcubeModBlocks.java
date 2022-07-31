@@ -12,14 +12,10 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.earthcube.block.PortalblockBlock;
 import net.mcreator.earthcube.block.MiningworldPortalBlock;
-import net.mcreator.earthcube.block.CuboniumOreBlock;
-import net.mcreator.earthcube.block.CuboniumBlockBlock;
 import net.mcreator.earthcube.EarthcubeMod;
 
 public class EarthcubeModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, EarthcubeMod.MODID);
 	public static final RegistryObject<Block> MININGWORLD_PORTAL = REGISTRY.register("miningworld_portal", () -> new MiningworldPortalBlock());
 	public static final RegistryObject<Block> PORTALBLOCK = REGISTRY.register("portalblock", () -> new PortalblockBlock());
-	public static final RegistryObject<Block> CUBONIUM_ORE = REGISTRY.register("cubonium_ore", () -> new CuboniumOreBlock());
-	public static final RegistryObject<Block> CUBONIUM_BLOCK = REGISTRY.register("cubonium_block", () -> new CuboniumBlockBlock());
 }

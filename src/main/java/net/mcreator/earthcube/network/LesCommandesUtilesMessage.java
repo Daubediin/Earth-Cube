@@ -1,22 +1,11 @@
 
 package net.mcreator.earthcube.network;
 
-import net.minecraftforge.network.NetworkEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.network.FriendlyByteBuf;
-
-import net.mcreator.earthcube.procedures.CommandesUtilesProcedure;
 import net.mcreator.earthcube.EarthcubeMod;
-
-import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class LesCommandesUtilesMessage {
+
 	int type, pressedms;
 
 	public LesCommandesUtilesMessage(int type, int pressedms) {
@@ -47,13 +36,16 @@ public class LesCommandesUtilesMessage {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
+
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(entity.blockPosition()))
 			return;
+
 		if (type == 0) {
 
 			CommandesUtilesProcedure.execute(world, x, y, z, entity);
 		}
+
 	}
 
 	@SubscribeEvent
@@ -61,4 +53,5 @@ public class LesCommandesUtilesMessage {
 		EarthcubeMod.addNetworkMessage(LesCommandesUtilesMessage.class, LesCommandesUtilesMessage::buffer, LesCommandesUtilesMessage::new,
 				LesCommandesUtilesMessage::handler);
 	}
+
 }
