@@ -122,7 +122,8 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "Surface",
+      "CUSTOM:Miningworld"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [

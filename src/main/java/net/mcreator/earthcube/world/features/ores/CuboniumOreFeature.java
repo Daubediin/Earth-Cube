@@ -56,7 +56,8 @@ public class CuboniumOreFeature extends OreFeature {
 	}
 
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD,
+			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("earthcube:miningworld")));
 
 	public CuboniumOreFeature() {
 		super(OreConfiguration.CODEC);
