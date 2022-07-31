@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "earthcube:blocks/cubonium_ore",
+    "down": "earthcube:blocks/cubonium_ore",
+    "up": "earthcube:blocks/cubonium_ore",
+    "north": "earthcube:blocks/cubonium_ore",
+    "east": "earthcube:blocks/cubonium_ore",
+    "south": "earthcube:blocks/cubonium_ore",
+    "west": "earthcube:blocks/cubonium_ore",
     "particle": "earthcube:blocks/cubonium_ore"
   }
 }
