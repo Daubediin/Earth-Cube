@@ -1,0 +1,148 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Spawn",
+          "onClick": {
+            "name": "Spawn"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Spawn",
+          "x": 126,
+          "y": 37
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Craft",
+          "onClick": {
+            "name": "Craft"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Craft",
+          "x": 248,
+          "y": 37
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Vote",
+          "onClick": {
+            "name": "Vote"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Vote",
+          "x": 191,
+          "y": 37
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "SellHead",
+          "onClick": {
+            "name": "Sellhead"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "SellHead",
+          "x": 125,
+          "y": 75
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Money",
+          "onClick": {
+            "name": "Balance"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Money",
+          "x": 248,
+          "y": 75
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Level",
+          "onClick": {
+            "name": "Level"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Level",
+          "x": 194,
+          "y": 75
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Jobs",
+          "onClick": {
+            "name": "Jobs"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Jobs",
+          "x": 190,
+          "y": 106
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "HDV",
+          "onClick": {
+            "name": "Ah"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "HDV",
+          "x": 126,
+          "y": 106
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Shop",
+          "onClick": {
+            "name": "Shop"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Shop",
+          "x": 253,
+          "y": 106
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

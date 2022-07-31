@@ -192,6 +192,227 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cubonium_ore_smelting"
+    },
+    {
+      "name": "Spawn",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Craft",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Vote",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vote",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Sellhead",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sellhead",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Balance",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Level",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Jobs",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jobs",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Rules",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rules",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Shop",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Ah",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ah",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "GuiImportant",
+      "type": "gui",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_important",
+      "path": "~/Gui"
+    },
+    {
+      "name": "CommandesUtiles",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "commandes_utiles",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "LesCommandesUtiles",
+      "type": "keybind",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "les_commandes_utiles",
+      "path": "~/Gui"
     }
   ],
   "variable_elements": [],
@@ -203,6 +424,7 @@
       "item.earthcube.cubonium_armor_boots": "Cubonium Boots",
       "item.earthcube.cubonium": "Cubonium",
       "block.earthcube.cubonium_block": "Block of Cubonium",
+      "key.earthcube.les_commandes_utiles": "Les Commandes Utiles",
       "item.earthcube.cubonium_axe": "Cubonium Axe",
       "item.earthcube.cubonium_armor_leggings": "Cubonium Leggings",
       "item.earthcube.cubonium_pickaxe": "Cubonium Pickaxe",
@@ -216,7 +438,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Gui",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "earthcube",
