@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Cubonium"
+        "value": "Blocks.STONEBRICK#0"
       },
       {
-        "value": "CUSTOM:Cubonium"
+        "value": "Blocks.STONEBRICK#0"
       },
       {
-        "value": ""
+        "value": "Blocks.STONEBRICK#0"
       },
       {
-        "value": "CUSTOM:Cubonium"
+        "value": "Blocks.STONEBRICK#0"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.SAPLING#0"
       },
       {
-        "value": ""
+        "value": "Blocks.STONEBRICK#0"
       },
       {
-        "value": ""
+        "value": "Blocks.STONEBRICK#0"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.STONEBRICK#0"
       },
       {
-        "value": ""
+        "value": "Blocks.STONEBRICK#0"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CuboniumAxe"
+      "value": "CUSTOM:Portalblock"
     },
-    "name": "cubonium_axe_recipe",
+    "name": "portalblockrecipe",
     "namespace": "mod"
   }
 }
