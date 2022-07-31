@@ -198,8 +198,20 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.earthcube.miningworld": "Miningworld Portal Igniter",
-      "block.earthcube.portalblock": "Portalblock"
+      "item.earthcube.miningworld": "Portal activator",
+      "item.earthcube.cubonium_armor_chestplate": "Cubonium Chestplate",
+      "item.earthcube.cubonium_armor_boots": "Cubonium Boots",
+      "item.earthcube.cubonium": "Cubonium",
+      "block.earthcube.cubonium_block": "Block of Cubonium",
+      "item.earthcube.cubonium_axe": "Cubonium Axe",
+      "item.earthcube.cubonium_armor_leggings": "Cubonium Leggings",
+      "item.earthcube.cubonium_pickaxe": "Cubonium Pickaxe",
+      "item.earthcube.cubonium_sword": "Cubonium Sword",
+      "block.earthcube.portalblock": "Portalblock",
+      "block.earthcube.cubonium_ore": "Cubonium Ore",
+      "item.earthcube.cubonium_armor_helmet": "Cubonium Helmet",
+      "item.earthcube.cubonium_hoe": "Cubonium Hoe",
+      "item.earthcube.cubonium_shovel": "Cubonium Shovel"
     }
   },
   "foldersRoot": {
